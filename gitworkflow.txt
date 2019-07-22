@@ -4,9 +4,11 @@ The general GIT workflow
 2. Create a repository on the remote
 3. Clone the repository to local: git clone git@github.com:<account>/<repo>
 4. If that fails with an unrecognizable key, then:
+
     a. check the key:  ssh github.com 
     b. compare the key to keys at github.com
     c. if it checks out, add it to your known hosts: ssh -o StrictHostKeyChecking=no git@github.com
+
 5. Here's the basic workflow now that you have communication between local and remote   
 
     a. create a new directory and cd into it
