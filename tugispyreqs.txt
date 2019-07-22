@@ -1,0 +1,9 @@
+numpy==1.16.4    
+pathlib
+matplotlib
+moviepy
+scikit-image==0.15.0
+opencv-python
+tensorflow==1.14.0
+keras==2.2.4
+mrcnn
