@@ -4,4 +4,4 @@ Generating a public SSH Key for Github
 2. cat ./.ssh/id_rsa.pub
 3. Copy this public key
 4. Go to your Github account, /Settings/ssh, create new
-5. Give it a name, paste in the public key
+5. Give it a name, paste in the public key 
