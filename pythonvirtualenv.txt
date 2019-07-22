@@ -1,0 +1,5 @@
+Establishing a Python Virtual Environment https://realpython.com/python-virtual-environments-a-primer/
+
+1. Navigate to your home directory and nstall the Python package virtualenv:  pip install virtualenv
+2. Create the env directory:  python -m venv env (this places an /env directory in this directory)
+3. Activate your environment: source ./env/Scripts/activate

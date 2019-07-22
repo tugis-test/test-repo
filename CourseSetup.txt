@@ -3,7 +3,11 @@ General Instructions for the course
 1. Acquire your Github account
 2. Download git-scm here: https://git-scm.com/download/win, and install
 3. Open up a Git Bash command window and follow the directions for establishing an SSH connection to GitHub
-3. Download Visual Studio Code here:  https://code.visualstudio.com/Download, select the Windows/64 bit version, and install
-4. Open up your Git Bash command window and navigate to ~/ directory.
-5. Type: git init, this should cause a .git directory to be placed here.
-6. Type: git clone tugis-test/test-repo
+4. Download Visual Studio Code here:  https://code.visualstudio.com/Download, select the Windows/64 bit version, and install
+5. Open up your Git Bash command window and navigate to your home directory:  cd ~/ .
+6. Create a Local Repo: git init, this should cause a .git directory to be placed in your home directory.
+7. Clone the course repo: git clone git@github.com:tugis-test/test-repo
+8. Navigate into the test-repo directory:  cd test-repo
+9. List the files in the directory: ls -al 
+10. Follow the instructions for establishing Python virtual environment
+11. 
