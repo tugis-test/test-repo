@@ -1,0 +1,21 @@
+The general GIT workflow
+
+1. Establish a Github account and establish your ssh connections to the local machine
+2. Create a repository on the remote
+3. Clone the repository to local: git clone git@github.com:<account>/<repo>
+4. If that fails with an unrecognizable key, then:
+    a. check the key:  ssh github.com 
+    b. compare the key to keys at github.com
+    c. if it checks out, add it to your known hosts: ssh -o StrictHostKeyChecking=no git@github.com
+5. Here's the basic workflow now that you have communication between local and remote   
+
+    a. create a new directory and cd into it
+    b. add a remote origin:  git remote add origin git@github.com:<account>/<repo>
+    c. create a new file: touch <file>
+    d. verify your remotes: git remote -v
+    e. check your current modification status: git status
+    f. add the new file you touched to staging: git add <file>
+    g. check that the new file is staged: git status
+    h. commit the changes in the new file to be moved to the remote: git commit -m <file>
+    i. move the changes up to the remote: git push -u origin master
+    j. go to your Github account and see your new file
