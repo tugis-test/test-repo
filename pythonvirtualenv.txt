@@ -4,3 +4,4 @@ Establishing a Python Virtual Environment https://realpython.com/python-virtual-
 2. Create the env directory:  python -m venv env (this places an /env directory in this directory)
 3. Activate your environment: source ./env/Scripts/activate
 4. This should result in a (env) in front of your active directory
+5. If your environment won't be established, simply type virtualenv env at the prompt to install setuptools.
