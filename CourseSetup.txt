@@ -10,4 +10,4 @@ General Instructions for the course
 8. Navigate into the test-repo directory:  cd test-repo
 9. List the files in the directory: ls -al 
 10. Follow the instructions for establishing Python virtual environment (should result in (env) in front of directory name)
-11. Install python packages: python -m pip install pythonvirtualenv.txt
+11. Install python packages: python -m pip install tugispyreqs.txt
