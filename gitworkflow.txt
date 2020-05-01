@@ -13,11 +13,12 @@ The general GIT workflow
 
     a. create a new directory and cd into it
     b. add a remote origin:  git remote add origin git@github.com:<account>/<repo>
-    c. create a new file: touch <file>
-    d. verify your remotes: git remote -v
-    e. check your current modification status: git status
-    f. add the new file you touched to staging: git add <file>
-    g. check that the new file is staged: git status
-    h. commit the changes in the new file to be moved to the remote: git commit -m <file>
-    i. move the changes up to the remote: git push -u origin master
-    j. go to your Github account and see your new file
+    c. turn off line feed transforms: git config --global core.autocrlf false
+    d. create a new file: touch <file>
+    e. verify your remotes: git remote -v
+    f. check your current modification status: git status
+    g. add the new file you touched to staging: git add <file>
+    h. check that the new file is staged: git status
+    i. commit the changes in the new file to be moved to the remote: git commit -m <file>
+    j. move the changes up to the remote: git push -u origin master
+    k. go to your Github account and see your new file
